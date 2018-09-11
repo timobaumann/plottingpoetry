@@ -1,1 +1,2 @@
+Cython
 git+https://github.com/clab/dynet#egg=dynet
