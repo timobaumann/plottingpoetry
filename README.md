@@ -6,7 +6,7 @@ Run the examples in a jupyter notebook in your browser by clicking on the binder
 
 Neural networks are based on the analogy to the human brain. Like the natural example, "neurons" in an NN take as input the weighted output from many other neurons, aggregate them, and decide if they should "fire" if a given threshold is surpassed:
 
-!(https://upload.wikimedia.org/wikipedia/commons/7/7f/ArtificialNeuronModel_deutsch.png)
+![Depiction of an artificial neuron, Wikipedia](https://upload.wikimedia.org/wikipedia/commons/7/7f/ArtificialNeuronModel_deutsch.png)
 
 Artificial neural networks are always organized in layers an each neuron in a layer is connected to *all* neurons on the preceding layer. However, weights can be zero which is equivalent to no connection. The necessary computations for all neurons in one layer can be integrated into one (or few) large matrix operations. This is why you don't see many summations in the code to follow. You simply see ```Matrix * Input + bias```. Trust the mathematicians that the matrix product takes care of this.
 
